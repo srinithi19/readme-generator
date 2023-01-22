@@ -4,7 +4,7 @@
 
   ## Description
 
-  an app to generate readme
+  to generate readme file
 
   ## Table of Contents
 
@@ -18,24 +18,24 @@
 
   ## Installation
 
-  use npm to install dependencies
+  npm
 
   ## Usage
 
-  to generate readme file
+  to genrate readme
 
   ## Licenses
-    ![badge](https://img.shields.io/badge/MIT-license-blue.svg)(https://opensource.org/licenses/MIT)
+    [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
     This project is covered under the MIT license. 
     To learn more about the license, click on the license link at the top.
 
   ## Contributors
 
-  myself
+  na
 
   ## Tests
 
-  no
+  na
 
   ## Questions
 

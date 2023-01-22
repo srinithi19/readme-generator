@@ -4,20 +4,21 @@ function renderLicenseBadge(license) {
   if (!license) {
     return ``;
   } else {
-    return `![badge](https://img.shields.io/badge/${license}-license-blue.svg)(${renderLicenseLink(license)})`
+    console.log(license)
+    return `[![License](https://img.shields.io/badge/License-${license}-blue.svg)](${renderLicenseLink(license)})`
   }
 }
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
-  if (license == "Apache") {
+  if (license == "Apache_2.0") {
     return `https://www.apache.org/licenses/LICENSE-2.0`
-  } else if (license == "GNU") {
+  } else if (license == "GPLv3") {
     return `https://www.gnu.org/licenses/gpl-3.0.en.html`
   } else if (license == "MIT") {
     return `https://opensource.org/licenses/MIT`
-  } else if (license == "Mozilla") {
+  } else if (license == "MPL_2.0") {
     return `https://www.mozilla.org/en-US/MPL/` 
   }
 }
