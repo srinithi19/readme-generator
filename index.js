@@ -16,9 +16,9 @@ const questions = [
         name: "description", 
         message: "Description of the project:" },
     {
-      type: "input",
-      name: "installation",
-      message: "Describe how to install the project(if applicable):",
+        type: "input",
+        name: "installation",
+        message: "Describe how to install the project(if applicable):",
     },
     { 
         type: "input", 
@@ -26,9 +26,9 @@ const questions = [
         message: "What is the project usage for?" 
     },
     {
-      type: "input",
-      name: "contributors",
-      message: "Who are the contributors to the project(if applicable)?",
+        type: "input",
+        name: "contributors",
+        message: "Who are the contributors to the project(if applicable)?",
     },
     { 
         type: "input", 
@@ -36,10 +36,10 @@ const questions = [
         message: "Are there any tests included?"
     },
     {
-      type: "list",
-      name: "license",
-      message: "Choose a license for the project:",
-      choices: ["Apache", "Academic", "GNU", "ISC", "MIT", "Mozilla", "Open"],
+         type: "list",
+        name: "license",
+        message: "Choose a license for the project:",
+        choices: ["Apache", "Academic", "GNU", "ISC", "MIT", "Mozilla", "Open"],
     },
     { 
         type: "input",
@@ -54,11 +54,21 @@ const questions = [
   ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, (err) => {
+        if (err) {
+          return console.log(err);
+        } else {
+            console.log("Your README.md file has been generated");
+        }
+    });
+}
 
 // TODO: Create a function to initialize app
 function init() {
-
+    const userResponse = inquirer.prompt(questions);
+    const markdown = generateMarkdown(userResponse);
+    writeToFile("sample/README.md", markdown);
 }
 
 // Function call to initialize app
