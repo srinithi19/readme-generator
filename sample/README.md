@@ -1,10 +1,10 @@
 
   
-  # readme generator
+  # readme genrator
 
   ## Description
 
-  to generate readme file
+  an app to genertae readme file
 
   ## Table of Contents
 
@@ -18,16 +18,19 @@
 
   ## Installation
 
-  npm
+  use npm
 
   ## Usage
 
   to genrate readme
 
-  ## Licenses
-    [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-    This project is covered under the MIT license. 
-    To learn more about the license, click on the license link at the top.
+  
+## Licenses
+![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
+    - https://www.apache.org/licenses/LICENSE-2.0
+
+This project is covered under the Apache_2.0 license. 
+To learn more about the license, click on the license link at the top.
 
   ## Contributors
 
@@ -43,4 +46,4 @@
 
   GitHub: [srinithi19](https://github.com/srinithi19)
 
-  Email: [emailtonithi@gmail.com](mailto:emailtonithi@gmail.com)
+  Email: [sri@gmail.com](mailto:sri@gmail.com)

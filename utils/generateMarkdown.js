@@ -5,7 +5,8 @@ function renderLicenseBadge(license) {
     return ``;
   } else {
     console.log(license)
-    return `[![License](https://img.shields.io/badge/License-${license}-blue.svg)](${renderLicenseLink(license)})`
+    return `![License](https://img.shields.io/badge/License-${license}-blue.svg)
+    - ${renderLicenseLink(license)}`
   }
 }
 
@@ -29,10 +30,11 @@ function renderLicenseSection(license) {
   if (!license) {
     return ``;
   } else {
-    return `## Licenses
-    ${renderLicenseBadge(license)}
-    This project is covered under the ${license} license. 
-    To learn more about the license, click on the license link at the top.`
+    return `
+## License
+${renderLicenseBadge(license)}\n
+This project is covered under the ${license} license. 
+To learn more about the license, click on the license link at the top.`
   }
 }
 

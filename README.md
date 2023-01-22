@@ -19,9 +19,11 @@ This app automates the writing of the file by prompting the user to answer a ser
 
 ## Demo
 
-sample readme generated using this app
+walkthrough of sample readme generated using this app is in the following link
 
-Google drive link - (https://drive.google.com/file/d/1ipZ_iKFjiJFFA9CgnZUS89PAxqvhVLNU/view)
+Google drive link - (https://drive.google.com/file/d/1u_hSKAGEWxeQssKBk0uPu52QZ9ZtxDXW/view)
+
+![sample readme file can be found under](sample/README.md)
 
 ## Links
 
