@@ -29,6 +29,7 @@ function renderLicenseSection(license) {
     return ``;
   } else {
     return `## Licenses
+    ${renderLicenseBadge(license)}
     This project is covered under the ${license} license. 
     To learn more about the license, click on the license link at the top.`
   }
@@ -39,8 +40,6 @@ function generateMarkdown(data) {
   return `
   
   # ${data.title}
-
-  ${renderLicenseBadge(data.license)}
 
   ## Description
 
@@ -76,8 +75,8 @@ function generateMarkdown(data) {
 
   ## Questions
 
-  If you have any questions, reach out to me via:
-  GitHub: [${data.username}](https://github.com/${data.username})
+  If you have any questions, reach out to me via:\n
+  GitHub: [${data.username}](https://github.com/${data.username})\n
   Email: [${data.email}](mailto:${data.email})
 `;
 }

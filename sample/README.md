@@ -1,12 +1,10 @@
 
   
-  # werwr
-
-  [![GNU license](https://img.shields.io/badge/License-GNU-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html)
+  # 
 
   ## Description
 
-  sdfdsf
+  
 
   ## Table of Contents
 
@@ -20,26 +18,29 @@
 
   ## Installation
 
-  cvbvcbn
+  
 
   ## Usage
 
-  hgjh
+  
 
   ## Licenses
-    This project is covered under the GNU license. 
-    To learn more about the license, click on the license link.
+    [![Apache license](https://img.shields.io/badge/License-Apache-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
+    This project is covered under the Apache license. 
+    To learn more about the license, click on the license link at the top.
 
   ## Contributors
 
-  uiuo
+  
 
   ## Tests
 
-  fgh
+  
 
   ## Questions
 
   If you have any questions, reach out to me via:
-  GitHub: [dfg](https://github.com/dfg)
-  Email: [bnmn](mailto:bnmn)
+
+  GitHub: [](https://github.com/)
+
+  Email: [](mailto:)
