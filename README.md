@@ -12,7 +12,7 @@ This application is a command line interface that generates README.md using node
 
 ## Usage
 
-This app automates the writing of the file by prompting the user to answer a series of questions about the project. After answering all the questions, a readme file is generated for the user.
+This app automates the writing of the file by prompting the user to answer a series of questions about the project. After answering all the questions, a readme file is generated for the user. use command line to execute the file.
 
 ![sample qns](./assets/images/sampleqns.png)
 
@@ -21,8 +21,7 @@ This app automates the writing of the file by prompting the user to answer a ser
 
 sample readme generated using this app
 
-![demo](./assets/images/sampleqns.png)
-
+Google drive link - (https://drive.google.com/file/d/1ipZ_iKFjiJFFA9CgnZUS89PAxqvhVLNU/view)
 
 ## Links
 

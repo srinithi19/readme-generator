@@ -1,10 +1,10 @@
 
   
-  # readme genrator
+  # readme generator
 
   ## Description
 
-  a sample application to generate readme
+  an app to generate readme
 
   ## Table of Contents
 
@@ -18,14 +18,14 @@
 
   ## Installation
 
-  use npm to install inquirer
+  use npm to install dependencies
 
   ## Usage
 
-  to genrate readme files
+  to generate readme file
 
   ## Licenses
-    [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+    ![badge](https://img.shields.io/badge/MIT-license-blue.svg)(https://opensource.org/licenses/MIT)
     This project is covered under the MIT license. 
     To learn more about the license, click on the license link at the top.
 
