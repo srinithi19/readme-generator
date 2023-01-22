@@ -16,6 +16,14 @@ This app automates the writing of the file by prompting the user to answer a ser
 
 ![sample qns](./assets/images/sampleqns.png)
 
+
+## Demo
+
+sample readme generated using this app
+
+![demo](./assets/images/sampleqns.png)
+
+
 ## Links
 
 Github Repo - https://github.com/srinithi19/readme-generator <br>
