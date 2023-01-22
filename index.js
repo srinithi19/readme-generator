@@ -34,10 +34,10 @@ const questions = [
         message: "Are there any tests included?"
     },
     {
-         type: "list",
+        type: "list",
         name: "license",
         message: "Choose a license for the project:",
-        choices: ["Apache", "Academic", "GNU", "ISC", "MIT", "Mozilla", "Open"],
+        choices: ["Apache", "GNU", "MIT", "Mozilla"],
     },
     { 
         type: "input",

@@ -1,20 +1,46 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+function renderLicenseBadge(license) {
+  if (!license) {
+    return ``;
+  } else {
+    return `[![${license} license](https://img.shields.io/badge/License-${license}-blue.svg)](${renderLicenseLink(license)})`
+  }
+}
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
-function renderLicenseLink(license) {}
+function renderLicenseLink(license) {
+  if (license == "Apache") {
+    return `https://www.apache.org/licenses/LICENSE-2.0`
+  } else if (license == "GNU") {
+    return `https://www.gnu.org/licenses/gpl-3.0.en.html`
+  } else if (license == "MIT") {
+    return `https://opensource.org/licenses/MIT`
+  } else if (license == "Mozilla") {
+    return `https://www.mozilla.org/en-US/MPL/` 
+  }
+}
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
-function renderLicenseSection(license) {}
+function renderLicenseSection(license) {
+  if (!license) {
+    return ``;
+  } else {
+    return `## Licenses
+    This project is covered under the ${license} license. 
+    To learn more about the license, click on the license link at the top.`
+  }
+}
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `
   
   # ${data.title}
+
+  ${renderLicenseBadge(data.license)}
 
   ## Description
 
@@ -38,9 +64,7 @@ function generateMarkdown(data) {
 
   ${data.usage}
 
-  ## License
-
-  This application is covered by the ${data.license} License. 
+  ${renderLicenseSection(data.license)}
 
   ## Contributors
 
